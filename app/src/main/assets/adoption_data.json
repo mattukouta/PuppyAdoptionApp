@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Buckey",
+    "gender": "male",
+    "breed": "Golden Retriever",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2020/10/06/11/50/dog-5632005_1280.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Darla",
+    "gender": "female",
+    "breed": "Dachshund",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2016/07/15/15/55/dachshund-1519374__480.jpg"
+  },
+  {
+    "id": "3",
+    "name": "abbott",
+    "gender": "female",
+    "breed": "Welsh Corgi",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2019/08/19/07/45/dog-4415649_1280.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Ripley",
+    "gender": "female",
+    "breed": "Pug",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2015/03/26/09/54/pug-690566_1280.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Hilda",
+    "gender": "famale",
+    "breed": "",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2015/12/08/00/52/puppy-1082141_1280.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Frankie",
+    "gender": "male",
+    "breed": "Bulldog",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2016/02/26/16/32/bulldog-1224267_1280.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Rocco",
+    "gender": "male",
+    "breed": "Field Spaniel",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2019/07/01/18/16/dog-4310597__480.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Link",
+    "gender": "male",
+    "breed": "Poodle",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2019/02/06/15/18/puppy-3979350__480.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Reuben",
+    "gender": "male",
+    "breed": "Chihuahua",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2019/12/30/16/07/chihuahua-4730005__480.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Walter",
+    "gender": "male",
+    "breed": "Norfolk Terrier",
+    "description": "I can no longer keep it due to various reasons. Please contact me because you will love he.",
+    "image": "https://cdn.pixabay.com/photo/2016/04/05/21/42/dog-1310545__480.jpg"
+  }
+]
