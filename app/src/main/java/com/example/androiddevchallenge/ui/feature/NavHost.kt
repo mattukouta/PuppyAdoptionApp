@@ -33,7 +33,7 @@ fun NavHost(
         startDestination = ScreenRoute.PET_LIST
     ) {
         composable(
-            route = ScreenRoute.PET_LIST
+            route = ScreenRoute.PET_LIST,
         ) {
             PetListScreen(
                 viewModel = petListViewModel,
@@ -42,15 +42,17 @@ fun NavHost(
         }
 
         composable(
-            route = "${ScreenRoute.PET_DETAIL}/${ArgumentsKey.ID}",
+            route = "${ScreenRoute.PET_DETAIL}/{${ArgumentsKey.ID}}",
             arguments = listOf(
                 navArgument(ArgumentsKey.ID) { type = NavType.IntType }
             )
-        ) {
-            PetDetailScreen(
-                viewModel = petDetailViewModel,
-                navController = navController
-            )
+        ) { navBackStackEntry ->
+            navBackStackEntry.arguments?.getInt(ArgumentsKey.ID)?.let { id ->
+                PetDetailScreen(
+                    viewModel = petDetailViewModel,
+                    id = id
+                )
+            }
         }
     }
 }

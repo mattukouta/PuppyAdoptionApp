@@ -12,6 +12,7 @@ import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -94,16 +95,19 @@ fun PetItem(
             ) {
                 Text(
                     text = pet.name,
+                    fontFamily = FontFamily.Serif,
                     fontSize = 20.sp
                 )
 
                 Text(
                     text = pet.breed,
+                    fontFamily = FontFamily.Serif,
                     fontSize = 14.sp
                 )
 
                 Text(
                     text = pet.gender,
+                    fontFamily = FontFamily.Serif,
                     fontSize = 14.sp,
                     color = genderColor
                 )

@@ -15,4 +15,10 @@ import javax.inject.Inject
 class PetDetailViewModel @Inject constructor(
     private val petRepository: PetRepository
 ): ViewModel() {
+    private var _pet: MutableLiveData<Pet> = MutableLiveData()
+    val pet: LiveData<Pet> = _pet
+
+    fun getPet(id: Int) = viewModelScope.launch(IO) {
+        _pet.postValue(petRepository.getPet(id))
+    }
 }
