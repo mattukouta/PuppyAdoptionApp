@@ -1,27 +1,19 @@
-# Template repository
+# Puppy Adoption App
 
-Template repository for the Jetpack Compose [#AndroidDevChallenge](https://developer.android.com/dev-challenge).
+[![Check](https://github.com/mattukouta/PuppyAdoptionApp/actions/workflows/Check.yaml/badge.svg)](https://github.com/mattukouta/PuppyAdoptionApp/actions/workflows/Check.yaml)
 
-## Getting started
-Copy this repository by pressing the "Use this template" button in Github.
-Clone your repository and open it in the latest [Android Studio (Canary build)](https://developer.android.com/studio/preview).
+## :scroll: Description
+An application for finding your favorite pet.
 
-## Submission requirements
-- Follow the challenge description on the project website: [developer.android.com/dev-challenge](https://developer.android.com/dev-challenge)
-- All UI should be written using Jetpack Compose
-- The Github Actions workflow should complete successfully
-- Include two screenshots of your submission in the [results](results) folder. The names should be
-  screenshot_1.png and screenshot_2.png.
-- Include a screen record of your submission in the [results](results) folder. The name should be
-  video.mp4
-- Replace the contents of [README.md](README.md) with the contents of [README-template.md](README-template.md) and fill out the template.
 
-## Code formatting
-The CI uses [Spotless](https://github.com/diffplug/spotless) to check if your code is formatted correctly and contains the right licenses.
-Internally, Spotless uses [ktlint](https://github.com/pinterest/ktlint) to check the formatting of your code.
-To set up ktlint correctly with Android Studio, follow one of the [listed setup options](https://github.com/pinterest/ktlint#-with-intellij-idea).
+## :bulb: Motivation and Context
+Created with reference to the [Jetpack Compose sample application](https://github.com/android/compose-samples).
+I didn't devise a lot of design, but I made the image as easy to see as possible in consideration of the user to look for, and created a list screen that displays the minimum amount of information.
+It's not what it looks like, but I introduced Dagger Hilt and displayed the image by URL.
 
-Before committing your code, run `./gradlew app:spotlessApply` to automatically format your code.
+
+## :camera_flash: Screenshots
+<img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
 
 ## License
 ```
