@@ -36,7 +36,8 @@ fun NavHost(
             route = ScreenRoute.PET_LIST
         ) {
             PetListScreen(
-                viewModel = petListViewModel
+                viewModel = petListViewModel,
+                navController = navController
             )
         }
 
@@ -47,7 +48,8 @@ fun NavHost(
             )
         ) {
             PetDetailScreen(
-                viewModel = petDetailViewModel
+                viewModel = petDetailViewModel,
+                navController = navController
             )
         }
     }
